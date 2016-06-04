@@ -38,7 +38,7 @@ JQTWEET = {
 							.replace(/ID/g, data[i].id_str)
                             .replace('PHOTO', data[i].user.profile_image_url)
                             .replace('NAME', data[i].user.name)
-              .replace('TWEET_IMG', (data[i].entities.media && data[i].entities.media.length ? '<img src="' + data[i].entities.media[0].media_url + '"/>': ''))
+            .replace('TWEET_IMG', (data[i].entities.media && data[i].entities.media.length ? '<img src="' + data[i].entities.media[0].media_url + '"/>': ''))
 					);
                      
                     }

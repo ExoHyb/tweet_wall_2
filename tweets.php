@@ -24,7 +24,7 @@ $params = array(
   'includes_rts' => false
 );
 
-$results = $twitter->search('#Benzema');
+$results = $twitter->search('#BetterOniTunes');
 
 // output as JSON
 echo json_encode($results);
